@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftLocation"
   s.version      = "3.2.3"
+  s.swift_version = '4.2'
   s.summary      = "Easy and Efficient Location Tracking for iOS"
   s.description  = <<-DESC
     Efficient location tracking for iOS with support for oneshot/continuous/background tracking, reverse geocoding and more!
@@ -13,5 +14,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/malcommac/SwiftLocation.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation","CoreLocation","MapKit"
-  s.dependency 'SwiftyJSON', '~> 4.0.0-alpha.1'
+  s.dependency 'SwiftyJSON', '~> 4.2.0'
 end

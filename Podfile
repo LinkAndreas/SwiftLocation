@@ -6,7 +6,7 @@ target 'SwiftLocation-iOS' do
   use_frameworks!
 
   # Pods for SwiftLocation-iOS
-pod 'SwiftyJSON', '~> 4.0'
+pod 'SwiftyJSON', '~> 4.2.0'
 
   target 'SwiftLocation-iOS Tests' do
     inherit! :search_paths

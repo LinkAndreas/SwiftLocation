@@ -7,30 +7,16 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
-               BuildableName = "SwiftLocation.framework"
-               BlueprintName = "SwiftLocation-iOS"
-               ReferencedContainer = "container:SwiftLocation.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D9851BEFF229002C0205"
-               BuildableName = "SwiftLocation-iOS Tests.xctest"
-               BlueprintName = "SwiftLocation-iOS Tests"
+               BlueprintIdentifier = "64880FD31FA3685400AC0639"
+               BuildableName = "TestApplication.app"
+               BlueprintName = "TestApplication"
                ReferencedContainer = "container:SwiftLocation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
-            BuildableName = "SwiftLocation.framework"
-            BlueprintName = "SwiftLocation-iOS"
+            BlueprintIdentifier = "64880FD31FA3685400AC0639"
+            BuildableName = "TestApplication.app"
+            BlueprintName = "TestApplication"
             ReferencedContainer = "container:SwiftLocation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
-            BuildableName = "SwiftLocation.framework"
-            BlueprintName = "SwiftLocation-iOS"
+            BlueprintIdentifier = "64880FD31FA3685400AC0639"
+            BuildableName = "TestApplication.app"
+            BlueprintName = "TestApplication"
             ReferencedContainer = "container:SwiftLocation.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -83,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
-            BuildableName = "SwiftLocation.framework"
-            BlueprintName = "SwiftLocation-iOS"
+            BlueprintIdentifier = "64880FD31FA3685400AC0639"
+            BuildableName = "TestApplication.app"
+            BlueprintName = "TestApplication"
             ReferencedContainer = "container:SwiftLocation.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

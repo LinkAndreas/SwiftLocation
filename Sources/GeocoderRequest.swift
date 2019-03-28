@@ -13,7 +13,6 @@ import Contacts
 import SwiftyJSON
 
 //MARK: Geocoder Google
-
 public final class Geocoder_Google: GeocoderRequest {
 	
 	/// session task
